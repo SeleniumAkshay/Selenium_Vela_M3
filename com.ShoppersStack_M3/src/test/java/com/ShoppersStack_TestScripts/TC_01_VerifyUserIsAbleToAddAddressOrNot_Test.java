@@ -14,6 +14,7 @@ public class TC_01_VerifyUserIsAbleToAddAddressOrNot_Test extends BaseTest {
 
 	@Test
 	public void addAddress() throws InterruptedException, EncryptedDocumentException, IOException {
+		System.out.println("Add Address");
 		Thread.sleep(2000);
 		homePage.getAccountSettingsBtn().click();
 		homePage.getMyProfileBtn().click();
